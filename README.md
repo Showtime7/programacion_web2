@@ -33,3 +33,22 @@ verificar si el repositorio tiene cambios
 ```shell
 git status
 ```
+verificar si el repositorio tiene cambios
+
+```shell
+git status
+```
+
+Comeatarios para realizar commit.
+```Shell
+ git commit -m 
+ ```
+Configuracion de usuario y correo git para versionar (una unica vez).
+```Shell
+git config --global user.name "Showtime7"
+git config --global user.email edrian.gutierrez@gmail.com
+```
+Para subir los archivos borrar o actualizar se ejecuta el siguiente comando
+```Shell
+git push origin main (Main: nombre de la rama)
+```
